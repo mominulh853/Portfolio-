@@ -1,0 +1,52 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcultor</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+
+    <div class="box">
+        <div class="close">
+            <div class="circle" id="circle1"></div>
+            <div class="circle" id="circle2"></div>
+            <div class="circle" id="circle3"></div>
+        </div>
+        <div class="output" id="display">
+
+        </div>
+        <div class="input">
+            <input type="button" value="AC"  id="clear" onclick="allclear()" style="background-color: #414141;">
+            <input type="button" value="+/-"   style="background-color: #414141;" onclick="signchange()">
+            <input type="button" value="%"  onclick="appendTodisplay('%')"  style="background-color: #414141;">
+            <input type="button" value="÷" onclick="appendTodisplay('/')" style="background-color: #cb7e23;">
+           
+
+            <input type="button" value="7" onclick="appendTodisplay('7')">
+            <input type="button" value="8" onclick="appendTodisplay('8')">
+            <input type="button" value="9" onclick="appendTodisplay('9')">
+            <input type="button" value="x" onclick="appendTodisplay('*')" style="background-color: #cb7e23;">
+
+            <input type="button" value="4" onclick="appendTodisplay('4')">
+            <input type="button" value="5" onclick="appendTodisplay('5')">
+            <input type="button" value="6" onclick="appendTodisplay('6')">
+            <input type="button" value="-" onclick="appendTodisplay('-')" style="background-color: #cb7e23;">
+
+            <input type="button" value="1" onclick="appendTodisplay('1')">
+            <input type="button" value="2" onclick="appendTodisplay('2')">
+            <input type="button" value="3" onclick="appendTodisplay('3')">
+            <input type="button" value="+" onclick="appendTodisplay('+')" style="background-color: #cb7e23;">
+
+            <input type="button" value="0" class="zero" onclick="appendTodisplay('0')">
+            <input type="button" value="." onclick="appendTodisplay('.')">
+            <input type="button" value="=" class="equal" onclick="calc()" style="background-color: #cb7e23;">
+        </div>
+    </div>
+
+
+    <script src="ca.js"></script>
+</body>
+</html>

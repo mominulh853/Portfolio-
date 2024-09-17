@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.logo{
+    margin-left: 200px;
+    font-size: 1.5rem;
+   
+}
+.logo h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav-bar{
+    height: 65px;
+    background: #3B5998;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 10%;
+}
+.password{
+    margin-left: 50px;
+}
+.password h6{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.login1{
+    margin-left: 20px;
+    
+}
+.login1 button{
+    width: 59px;
+    height: 20px;
+    margin-top: 19px;
+    cursor: pointer;
+    background-color: #3B5998;
+    color: white;
+}
+
+.leftside{
+    width: 25%;
+   margin-left: 285px;
+   margin-top: 35px;
+}
+.leftside h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+.leftside img{
+    width: 700px;
+   margin-left: -90px;
+   margin-top: 20px;
+}
+
+.downform1{
+    position: absolute;
+    right: 11%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    margin-top: -350px;
+}
+.downform1 h1{
+    font-size: 2.5rem;
+}
+.downform1 p{
+    font-size: 1.1rem;
+}
+.fn{
+    margin-right: 10px;
+    top: 20px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding: 5px;
+}
+.ep{
+    margin-right: 10px;
+    top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 95%;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+.uff p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
+#dt{
+    margin-bottom: 10px;
+    width: 40%;
+    font-size: 1.1rem;
+    margin-top: 15px;
+}
+.ml{
+    margin-top: 15px;
+    cursor: pointer;
+}
+label {
+        font-size: 20px; 
+        color: #000;
+        margin-right: 15px;
+        margin-left: 10px;
+        
+}
+
+#bt{
+    margin-top: 20px;
+    height: 40px;
+    width: 180px;
+    background-color: rgb(26, 113, 32);
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.pic{
+    position: absolute;
+    size: 20%;
+}
